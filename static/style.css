@@ -1,0 +1,25 @@
+#new_messages{
+	height: 500px;
+	overflow-y: scroll;
+	margin: 30px;
+	max-width: 900;
+	background-color: #ececf5;
+	margin-left: 250px;
+}
+#container{
+	background-color: #d1d1ea;
+}
+.username{
+	color: blue;
+}
+.window{
+	border: 30px;
+	background-color:#d1d1ea;
+}
+#message_entry{
+	margin-left: 250px;
+}
+#title{
+	font-size: 32px;
+
+}

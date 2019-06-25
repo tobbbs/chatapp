@@ -6,7 +6,7 @@ $(document).ready(function() {
             messages.forEach(function(x){
                 var name = x[0];
                 var message = x[1];
-                $("#new_messages").append(`<p><span class="username">${name}</span>: <span>${message}</span></p>`);
+                $("#new_messages").append(`<p><span class="username">${name}</span>:<span>${message}</span></p>`);
             });  
             var objDiv = document.getElementById("new_messages");
             objDiv.scrollTop = objDiv.scrollHeight;    
@@ -30,5 +30,6 @@ $(document).ready(function() {
             $("#random-string").append(`<p>${data}</p>`);
         });
     });
+    if element.scroll()
     setInterval(function(){ fetch(); }, 500);
 });
